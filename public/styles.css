@@ -264,6 +264,7 @@ p + p {
 
 .product-visual {
   position: relative;
+  min-width: 0;
   background: var(--color-soft);
 }
 
@@ -302,6 +303,7 @@ p + p {
 
 .product-information {
   max-width: 530px;
+  min-width: 0;
   padding-block: 1rem;
 }
 
@@ -1075,7 +1077,7 @@ legend {
   }
 
   .product-information h1 {
-    font-size: clamp(4.2rem, 13vw, 7rem);
+    font-size: clamp(3rem, 13vw, 7rem);
     margin-top: 1rem;
   }
 
