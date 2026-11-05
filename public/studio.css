@@ -612,3 +612,9 @@
   text-decoration: none;
   transform: rotate(3deg);
 }
+
+@media (width <= 760px) {
+  .postmodernist-preview {
+    overflow-x: clip;
+  }
+}
