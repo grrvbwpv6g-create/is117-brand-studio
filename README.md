@@ -1,83 +1,73 @@
-# IS117 Brand Studio
+# THE EDIT
 
-**The same white T-shirt can carry very different meanings.** Develop a brand for it with an AI collaborator, then make those decisions visible in a professional website and a live style guide.
+**Effortless confidence through simple, versatile everyday style.**
 
-This template starts with a working, deliberately neutral storefront. Your audience, name, promise, logo, voice, and visual direction are **not chosen yet**. You make the decisions; the agent helps you explore, build, check, and revise them.
+THE EDIT is a minimalist white T-shirt brand concept for young professionals. Its modernist direction pairs a neutral palette, clean sans-serif typography, and an original wordmark to present the everyday tee as a polished, adaptable wardrobe choice.
 
-**A short record, visible to you:** your AI coach updates [LEARNING.md](LEARNING.md) with brief task-related explanations, observations and help received. It is AI-drafted, not a full transcript, and may be public with your repository. Review it and correct or remove excerpts before they are committed or pushed. Your instructor uses it alongside the project with this [simple three-part rubric](docs/assessment.md); the AI does not assign your grade.
+> This is a classroom storefront prototype. Product details are fictional; the demo bag does not place orders, collect payment, or persist between page loads.
 
-## Start here
+## Live website
 
-1. Open [this template on GitHub](https://github.com/kaw393939/is117-brand-studio), select **Use this template → Create a new repository**, and create a **public** repository in your own account. Wait until the new repository shows its README before cloning. A template copy does not copy the instructor's issues.
-2. In your terminal, replace both placeholders with your account and new repository name:
+[Visit THE EDIT](https://grrvbwpv6g-create.github.io/is117-brand-studio/)
 
-   ```sh
-   git clone git@github.com:USERNAME/REPOSITORY.git
-   cd REPOSITORY
-   ```
+- [Storefront](https://grrvbwpv6g-create.github.io/is117-brand-studio/)
+- [Live style guide](https://grrvbwpv6g-create.github.io/is117-brand-studio/styleguide.html)
+- [Design studio](https://grrvbwpv6g-create.github.io/is117-brand-studio/studio.html)
 
-3. Select this cloned folder as the chat's local project in ChatGPT desktop/Codex, or another AI agent that can **read and edit local files and run terminal commands**. Have the agent report its current folder and Git remote before installing anything. A browser-only conversation cannot do the whole exercise. VS Code is optional; an editor extension or separate agent CLI is not required. Start one chat with:
+## Brand identity
 
-   > Read AGENTS.md and SPEC.md. Help me get this running, then guide me through the brand studio one decision at a time.
+- **Audience:** Young professionals looking for a simple shirt they can style for everyday and smart-casual occasions.
+- **Promise:** THE EDIT helps young professionals feel polished and confident through simple, versatile everyday style.
+- **Character:** Refined, confident, and sophisticated.
+- **Visual direction:** Modernist—neutral colors, clear hierarchy, structured layouts, and readable typography.
+- **Voice:** Confident, sophisticated, and minimalist.
 
-4. Let the agent check Node.js **22.16+ on the 22 LTS line (recommended), or 24+**, and npm, run `npm ci` and `npm run check`, and help with any setup errors before you change the starter.
-5. Return to the terminal you used to clone, still inside your repository, and run:
+The audience is a design hypothesis, not a result of customer research. Read the project’s decisions and evidence in [SPEC.md](SPEC.md), and see the short AI-drafted learning record in [LEARNING.md](LEARNING.md).
 
-   ```sh
-   npm run dev
-   ```
+## Website features
 
-   Open the address printed by the server in your browser (normally `http://127.0.0.1:5173`). Leave this terminal running while you work. The agent can edit files and run checks in its separate project terminal.
+- Responsive white T-shirt storefront with the THE EDIT wordmark and brand messaging.
+- Size selection for S, M, L, and XL, with helpful feedback if a visitor tries to add an item without choosing a size.
+- Working demo bag that shows selected sizes, quantities, and an item count; it can also be emptied. The bag resets on reload.
+- Optional Casual and Smart Casual preferences that reveal corresponding styling suggestions.
+- Live style guide covering the shared logo, palette, typography, spacing, components, and voice.
+- Design studio introducing how modernist and postmodernist choices can give the same product different meanings.
 
-Save an HTML, CSS, JavaScript, or asset file under `public/` to refresh the local browser automatically; unsaved edits do not appear. A refresh resets the temporary demo bag. `npm start` is an alias for this same development mode. Press **Ctrl+C** in the terminal running the server to stop it. To switch to a plain preview, stop the server first, then use `npm run preview` and reopen its printed address. Refresh the browser yourself after saving. These commands serve your local files; publishing to GitHub Pages is a later step.
+## Responsive design and testing
 
-**First success checkpoint:** you can see the neutral white T-shirt page, choose a size, and add it to the demo bag. Tell the agent what you actually see. The bag is a demonstration; it does not take payments, persist between visits, or place orders.
+The storefront and supporting pages adapt to narrow screens. The mobile layout stacks the product content and constrains its grid items and headline sizing to prevent horizontal overflow. A Playwright browser test checks that pages fit a 375-pixel viewport; additional browser checks cover core storefront interactions, keyboard use, page integrity, and automated accessibility rules.
 
-If a command fails, paste the real error into the same chat. If the port is in use, let the agent help you stop your earlier preview or use `PORT=5175 npm run dev`, then open its printed address. You can ask for a hint, an example, or a small recommendation at any time. You do not need to know the branding vocabulary first.
+Run the complete project check with:
 
-**Returning later:** reopen the same local clone and chat. Have the agent read SPEC.md and LEARNING.md to resume the next step. Check the server terminal first; if it is still running, use its printed address. Otherwise run `npm run dev` from your repository again, reusing any chosen `PORT` prefix. You normally do not need to clone or install dependencies again.
+```sh
+npm run check
+```
 
-## Work one decision at a time
+It includes formatting, lint, server tests, and Chromium-based Playwright tests. The latest local check completed successfully.
 
-The agent follows **Try → Decide → Build → Check → Keep**. It asks one small, meaningful question and waits for your answer. It should never invent your response or quietly choose your brand.
+## BRAND-001
 
-You can adopt an AI suggestion. At the important choices, explain why it helps your visitor; “yes” alone does not show that connection. Ask for a hint if you are stuck.
+The completed BRAND-001 work was merged in [pull request #2](https://github.com/grrvbwpv6g-create/is117-brand-studio/pull/2).
 
-1. **Try the baseline.** Agree on the first feature, `BRAND-001`: first branded storefront and live style guide. Then have the agent open its issue and feature branch in **your repository**, before saving decisions or previews.
-2. **Decide who and why.** Make two tiny audience/persona cards: a primary need to guide the page and one contrasting secondary need to check it. Then make an early brief: name, promise, one primary brand archetype, and three voice traits. These are hypotheses to revisit, not customer research. An archetype describes the brand's character, not a customer type.
-3. **Compare two small previews.** See a modernist and a postmodernist hero using the **same product, headline, supporting copy, and action**. Each cites real design references and explains its visual decisions. Choose or adjust a direction before building the whole page.
-4. **Build the chosen slice.** Develop an original SVG logo; a simple wordmark is enough. Show it at small size and in one color; the same SVG can serve each presentation if it works. Apply the selected identity to the storefront and live style guide, sharing CSS variables and assets. Plan two truthful, useful applications of Cialdini's persuasion principles; explain how one actual page element helps your visitor. Do not invent reviews, scarcity, credentials, or product facts.
-5. **Check together.** The agent runs the prepared checks and reviews its work first, shows one actual check, and asks you to explain what it demonstrates. Then inspect the page in your own browser: describe the impression, try the keyboard, and look at a narrow/mobile view. Ask for help if something is unclear.
-6. **Keep a change you understand.** Save agreed decisions and actual evidence in [SPEC.md](SPEC.md). Review the coach's short LEARNING.md summary for accuracy before it is committed or pushed. Then commit the checked change on its branch and review its pull request with the agent. Revise anything that misses the intended meaning. You decide when to keep and merge it into `main`; tell the agent your decision. No outside class reviewer is required.
+## Run locally
 
-You work at your own pace. There is no required class demonstration, quiz, separate reflection report, or extra bug-making task. The coach maintains the short learning record as you work. If you say “build it,” the agent can build the slice you have chosen; it still needs your reasons and browser observations before recording that evidence as complete.
+Requirements: Node.js **22.16 or later on the 22 LTS line**, or **24 or later**, and npm.
 
-## What is here
+```sh
+git clone git@github.com:grrvbwpv6g-create/is117-brand-studio.git
+cd is117-brand-studio
+npm ci
+npm run dev
+```
 
-| File                                   | Purpose                                                                                                    |
-| -------------------------------------- | ---------------------------------------------------------------------------------------------------------- |
-| `public/index.html`                    | Working storefront; the first branding feature is still pending                                            |
-| `public/styleguide.html`               | Live identity board using the storefront's shared styles and assets                                        |
-| `public/studio.html`                   | Short studio overview, also [available online](https://kaw393939.github.io/is117-brand-studio/studio.html) |
-| [SPEC.md](SPEC.md)                     | The concise record of your chosen decisions and evidence                                                   |
-| [AGENTS.md](AGENTS.md)                 | Instructions for your AI coach                                                                             |
-| [LEARNING.md](LEARNING.md)             | Brief AI-drafted conversation evidence for you to review; no full transcript or automatic grade            |
-| [docs/reference.md](docs/reference.md) | Short explanations and source links to use when needed                                                     |
+Open the local address printed by the server (normally `http://127.0.0.1:5173`). Keep the development server running while browsing; saved files under `public/` refresh automatically. Press **Ctrl+C** in that terminal to stop it.
 
-The README is the authoritative startup path. The online overview introduces the exercise; it does not replace your local project or chat.
+To run checks locally:
 
-## Prepared checks
+```sh
+npm run check
+```
 
-`npm run check` runs formatting, HTML/CSS/JavaScript lint, server tests, and a real Chromium browser journey with Playwright and axe accessibility checks. Use `npm run format` to fix formatting, then check again. Fix lint problems in the source; keep the prepared rules. If Chromium is missing, the agent can explain and run `npm run setup:browser`, then retry. That command installs the browser dependency; it is not an additional tool choice.
+## AI assistance
 
-Positive cases check intended behavior, such as adding a selected size. Negative cases check unsuitable input, such as trying to add without a size. These are different from test **levels**: unit checks focus on a small function, integration checks join parts, and end-to-end checks drive a user journey in a real browser.
-
-Checks can find defects and some accessibility barriers. They do not verify that the page and guide express the same identity; compare their logo, typography, components, and voice in the browser. They cannot prove that your audience will value the brand, that a claim is true, or that every person can use the site. Your own browser observation adds evidence; it does not stand in for customer research.
-
-After `BRAND-001`, choose **one** next cycle with less guidance: perhaps a useful brand story, a fit guide with supported information, or a richer demo bag. A real checkout would be a separate project decision.
-
-## Publish when you keep the site
-
-After you approve keeping the checked change and it is merged into `main`, you can publish it. Let the agent guide you through your repository's **Settings → Pages → Source → GitHub Actions**, then **Actions → Check and publish → Run workflow** on `main`. Open the deployment URL reported by that run. Later pushes to `main` publish automatically after checks pass. Until Pages is configured, the workflow checks the project and skips publishing successfully; first setup does not require deployment.
-
-If Settings is missing or shows a 404, sign into the owning GitHub account in that browser. Terminal SSH authentication does not sign the browser in.
+AI assistance supported brand exploration, copy and design suggestions, implementation, troubleshooting, and testing. The student selected THE EDIT and its modernist direction and reviewed the resulting project. See [LEARNING.md](LEARNING.md) for the concise record of contributions and assistance.
