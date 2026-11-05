@@ -110,23 +110,6 @@ for (const route of ["/", "/styleguide.html", "/studio.html"]) {
     await page.setViewportSize({ width: 375, height: 812 });
     await page.goto(route);
     await page.evaluate(() => document.fonts.ready);
-    const overflowDetails = await page.evaluate(() => ({
-      pageWidth: document.documentElement.scrollWidth,
-      screenWidth: window.innerWidth,
-      wideElements: [...document.querySelectorAll("*")]
-        .filter((element) => {
-          const rect = element.getBoundingClientRect();
-          return rect.right > window.innerWidth || rect.left < 0;
-        })
-        .map((element) => ({
-          tag: element.tagName,
-          className: String(element.className),
-          right: Math.round(element.getBoundingClientRect().right),
-        }))
-        .slice(0, 15),
-    }));
-
-    console.log("MOBILE OVERFLOW DETAILS:", JSON.stringify(overflowDetails));
     expect(
       await page.evaluate(
         () => document.documentElement.scrollWidth <= window.innerWidth,
