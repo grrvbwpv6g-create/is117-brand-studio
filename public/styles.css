@@ -1,12 +1,12 @@
 /* Shared brand tokens. Change these after you agree on your brand direction.
    Both the storefront and the live style guide use this file. */
 :root {
-  --color-paper: #f6f5f0;
-  --color-ink: #171a18;
-  --color-muted: #5a615b;
-  --color-line: #d1d5cc;
-  --color-accent: #e3ef56;
-  --color-soft: #e8eae1;
+  --color-paper: #f5f4f0;
+  --color-ink: #171717;
+  --color-muted: #5c625d;
+  --color-line: #d1cdc5;
+  --color-accent: #c9c4bb;
+  --color-soft: #e8e8e2;
   --color-white: #fff;
   --color-danger: #992e28;
   --font-body:
@@ -264,6 +264,7 @@ p + p {
 
 .product-visual {
   position: relative;
+  min-width: 0;
   background: var(--color-soft);
 }
 
@@ -302,6 +303,7 @@ p + p {
 
 .product-information {
   max-width: 530px;
+  min-width: 0;
   padding-block: 1rem;
 }
 
@@ -887,7 +889,8 @@ legend {
 
 .button-samples {
   display: flex;
-  flex-wrap: wrap;
+  flex-flow: row wrap;
+  align-items: center;
   gap: 1rem;
 }
 
@@ -1053,7 +1056,7 @@ legend {
   }
 
   .product-section {
-    grid-template-columns: 1fr;
+    grid-template-columns: minmax(0, 1fr);
     gap: 2rem;
     padding-block: 1.5rem 3rem;
   }
@@ -1074,7 +1077,7 @@ legend {
   }
 
   .product-information h1 {
-    font-size: clamp(4.2rem, 13vw, 7rem);
+    font-size: clamp(3rem, 13vw, 7rem);
     margin-top: 1rem;
   }
 
@@ -1294,4 +1297,71 @@ legend {
     transition: none !important;
     animation: none !important;
   }
+}
+
+/* THE EDIT — Modernist brand banner */
+body .starter-notice {
+  background-color: #171717;
+  color: #fff;
+}
+
+body .starter-notice a {
+  color: #fff;
+}
+
+/* THE EDIT — Modernist brand story section */
+body .starter-next {
+  background-color: #171717;
+  color: #fff;
+}
+
+.starter-next .eyebrow,
+.starter-next p,
+.starter-next h2 {
+  color: #fff;
+}
+
+.starter-next .button-secondary {
+  background-color: transparent;
+  color: #fff;
+  border: 1px solid #fff;
+}
+
+.starter-next .button-secondary:hover {
+  background-color: #fff;
+  color: #171717;
+}
+
+/* THE EDIT — Styling preference */
+.style-preference {
+  margin: 1.5rem 0;
+  padding: 1.25rem 0;
+  border-top: 1px solid #c9c4bb;
+}
+
+.style-preference p {
+  margin: 0 0 0.75rem;
+}
+
+.style-preference label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-weight: 600;
+}
+
+.style-preference select {
+  display: block;
+  width: 100%;
+  max-width: 320px;
+  padding: 0.75rem;
+  margin-bottom: 1rem;
+  border: 1px solid #c9c4bb;
+  background: #f5f4f0;
+  color: #171717;
+  font: inherit;
+}
+
+#style-suggestion {
+  color: #5c625d;
+  line-height: 1.6;
 }

@@ -449,7 +449,7 @@
   }
 
   .studio-path {
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: minmax(0, 1fr);
   }
 
   .studio-path > li {
@@ -536,5 +536,85 @@
 
   .direction-sketch {
     height: 135px;
+  }
+}
+
+.button-samples {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  gap: 1rem;
+}
+
+/* THE EDIT — Modernist design preview */
+.modernist-preview {
+  background-color: #f5f4f0;
+  color: #171717;
+  padding: 3rem;
+  margin-top: 2rem;
+  border: 1px solid #c9c4bb;
+  text-align: left;
+}
+
+.modernist-preview h3 {
+  font-size: 0.85rem;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+}
+
+.modernist-preview h4 {
+  font-size: clamp(2rem, 5vw, 4rem);
+  font-weight: 700;
+  line-height: 1.1;
+  max-width: 650px;
+  margin: 2rem 0;
+}
+
+.modernist-preview a {
+  display: inline-block;
+  background-color: #171717;
+  color: #fff;
+  padding: 1rem 2rem;
+  margin: 1.5rem 0;
+  text-decoration: none;
+}
+
+/* THE EDIT — Postmodernist design preview */
+.postmodernist-preview {
+  background-color: #e7ff58;
+  color: #171717;
+  padding: 3rem;
+  margin-top: 2rem;
+  border: 5px solid #171717;
+  transform: rotate(-1deg);
+}
+
+.postmodernist-preview h3 {
+  font-size: 1rem;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+}
+
+.postmodernist-preview h4 {
+  font-size: clamp(2.5rem, 6vw, 5rem);
+  font-weight: 900;
+  line-height: 0.95;
+  text-transform: uppercase;
+  margin: 2rem 0;
+}
+
+.postmodernist-preview a {
+  display: inline-block;
+  background-color: #171717;
+  color: #fff;
+  padding: 1rem 2rem;
+  margin: 1.5rem 0;
+  text-decoration: none;
+  transform: rotate(3deg);
+}
+
+@media (width <= 760px) {
+  .postmodernist-preview {
+    overflow-x: clip;
   }
 }

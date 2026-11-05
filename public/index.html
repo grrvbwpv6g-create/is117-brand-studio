@@ -5,33 +5,30 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta
       name="description"
-      content="An unfinished, neutral T-shirt storefront for the IS117 Brand Studio. Build a brand through deliberate, visible design choices."
+      content="Discover THE EDIT, a minimalist white T-shirt storefront focused on effortless confidence and everyday styling."
     />
-    <title>Your Brand — neutral storefront starter</title>
+    <title>THE EDIT | Effortless Confidence</title>
     <link rel="icon" href="data:," />
     <link rel="stylesheet" href="styles.css" />
     <script src="shop.js" defer></script>
   </head>
   <body>
     <a class="skip-link" href="#main">Skip to content</a>
-    <aside class="starter-notice" aria-label="Starter information">
-      <span
-        ><strong>Unfinished by design.</strong> This is a neutral teaching
-        starter. Replace its identity after your brand decisions.</span
-      >
-      <a href="studio.html"
-        >Enter the studio <span aria-hidden="true">↗</span></a
+    <aside class="starter-notice" aria-label="Brand message">
+      <span> <strong>THE EDIT.</strong> Effortless Confidence. </span>
+      <a href="#product-title"
+        >Explore the Tee <span aria-hidden="true">↗</span></a
       >
     </aside>
     <header class="site-header wrap">
       <a
         class="brand-link"
         href="index.html"
-        aria-label="Your Brand storefront home"
+        aria-label="THE EDIT storefront home"
         ><img
           class="wordmark"
-          src="assets/wordmark.svg"
-          alt="Neutral starter wordmark"
+          src="the-edit-logo.svg"
+          alt="THE EDIT logo"
           width="175"
           height="26"
       /></a>
@@ -51,7 +48,7 @@
       <section class="product-section wrap" aria-labelledby="product-title">
         <div class="product-visual">
           <div class="visual-label">
-            <span>001 / The starting point</span><span>Unbranded</span>
+            <span>001 / THE EDIT</span><span>EVERYDAY ESSENTIAL</span>
           </div>
           <img
             class="shirt-image"
@@ -62,26 +59,72 @@
             fetchpriority="high"
           />
           <div class="image-caption">
-            <span>One product. Room for your point of view.</span
+            <span>Simple style. Effortless confidence.</span
             ><span aria-hidden="true">↙</span>
           </div>
         </div>
         <div class="product-information">
           <p class="eyebrow">
-            <span class="status-dot" aria-hidden="true"></span> Neutral product
-            / demo only
+            <span class="status-dot" aria-hidden="true"></span>
+            THE EDIT / WHITE T-SHIRT
           </p>
-          <h1 id="product-title">The white<br />T-shirt.</h1>
-          <p class="product-intro">A plain shirt. A place to begin.</p>
+
+          <h1 id="product-title">Confidence Begins With Simplicity.</h1>
+          <p class="product-intro">
+            A white T-shirt for effortless everyday styling.
+          </p>
           <p class="muted product-description">
-            This starter has a working product page and room for a brand. Its
-            audience, personality, message, and visual direction are still yours
-            to decide.
+            Meet THE EDIT's white T-shirt, a simple wardrobe essential for
+            creating your own everyday looks. Style it your way, from casual
+            outings to smart-casual occasions.
           </p>
+
+          <p class="brand-unity">
+            For those who believe confidence starts with simplicity. THE EDIT
+            celebrates personal style, everyday versatility, and the freedom to
+            dress your way.
+          </p>
+
           <div class="price-row">
             <p class="price">$28 <span>USD</span></p>
             <span class="micro-label">Fictional demo price</span>
           </div>
+
+          <div class="style-preference">
+            <p><strong>How would you style THE EDIT?</strong></p>
+            <p>Choose the look that fits your everyday style.</p>
+
+            <label for="style-choice">Your style:</label>
+            <select id="style-choice" name="style-choice">
+              <option value="">Choose a style (optional)</option>
+              <option value="casual">Casual</option>
+              <option value="smart-casual">Smart Casual</option>
+            </select>
+
+            <p id="style-suggestion" aria-live="polite">
+              Select a style to explore a styling suggestion.
+            </p>
+          </div>
+
+          <script>
+            document
+              .getElementById("style-choice")
+              .addEventListener("change", function () {
+                const suggestion = document.getElementById("style-suggestion");
+
+                if (this.value === "casual") {
+                  suggestion.textContent =
+                    "Casual: Pair your white T-shirt with jeans and sneakers for an easy everyday look.";
+                } else if (this.value === "smart-casual") {
+                  suggestion.textContent =
+                    "Smart Casual: Pair your white T-shirt with tailored trousers and a blazer for a polished look.";
+                } else {
+                  suggestion.textContent =
+                    "Select a style to explore a styling suggestion.";
+                }
+              });
+          </script>
+
           <form id="product-form" class="product-form" novalidate>
             <fieldset aria-describedby="size-help size-error">
               <legend>Choose a size</legend>
@@ -127,13 +170,10 @@
               <dt>Color</dt>
               <dd>White</dd>
             </div>
+
             <div>
               <dt>Brand identity</dt>
-              <dd>Not decided yet</dd>
-            </div>
-            <div>
-              <dt>Product claims</dt>
-              <dd>None supplied</dd>
+              <dd>THE EDIT — Effortless Confidence</dd>
             </div>
           </dl>
         </div>
@@ -170,12 +210,12 @@
 
       <section class="starter-next wrap" aria-labelledby="next-title">
         <p class="eyebrow">For the person building this site</p>
-        <h2 id="next-title">The shirt stays.<br />The story is your work.</h2>
+        <h2 id="next-title">Everyday Style.<br />Effortless Confidence.</h2>
         <div>
           <p>
-            Choose who this is for, decide what the brand should express, and
-            make those choices visible. Keep the storefront and its
-            <a href="styleguide.html">live style guide</a> in sync.
+            THE EDIT believes confidence begins with simplicity. Discover a
+            versatile approach to everyday styling built around the classic
+            white T-shirt.
           </p>
           <a class="button button-secondary" href="studio.html"
             >See the studio brief <span aria-hidden="true">↗</span></a
@@ -186,8 +226,8 @@
 
     <footer class="site-footer wrap">
       <p>
-        IS117 Brand Studio <span class="footer-separator"> / </span> Neutral
-        starter
+        THE EDIT <span class="footer-separator"> / </span>
+        Effortless Confidence
       </p>
       <p class="footer-tagline">Fictional product. Real design decisions.</p>
       <a href="https://github.com/kaw393939/is117-brand-studio#readme"

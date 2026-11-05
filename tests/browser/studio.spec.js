@@ -109,6 +109,7 @@ for (const route of ["/", "/styleguide.html", "/studio.html"]) {
   }) => {
     await page.setViewportSize({ width: 375, height: 812 });
     await page.goto(route);
+    await page.evaluate(() => document.fonts.ready);
     expect(
       await page.evaluate(
         () => document.documentElement.scrollWidth <= window.innerWidth,
