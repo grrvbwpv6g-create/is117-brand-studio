@@ -182,15 +182,23 @@ I want THE EDIT to combine a sophisticated appearance with simple, understandabl
 
 ### 6. Peer Review and Feedback
 
-**Review partner:** Classmate — name to be added.
+## 6. Peer Review and Feedback
 
-**Incoming feedback issues:** Pending classmate review.
+**Review partner:** Muniba Sarwar (GitHub: mfnu906-ship-it).
 
-**My review of my classmate's project:** Pending availability of their repository.
+**Incoming feedback issues:** Muniba reviewed my THE EDIT Brand Studio project and created three issues:
+- [Issue #5](https://github.com/grrvbwpv6g-create/is117-brand-studio/issues/5): Remove remaining starter-template instructions from the style guide.
+- [Issue #6](https://github.com/grrvbwpv6g-create/is117-brand-studio/issues/6): Fix the README link in the website footer.
+- [Issue #7](https://github.com/grrvbwpv6g-create/is117-brand-studio/issues/7): Add an introduction to the style guide hero section.
 
-**Feedback decision:** To be documented after receiving actual feedback.
+**My review of my classmate's project:** I reviewed Muniba's PUREFORM Brand Studio and created three constructive feedback issues:
+- [Issue #5](https://github.com/mfnu906-ship-it/is117-brand-studio/issues/5): Update the homepage's "in progress" message.
+- [Issue #6](https://github.com/mfnu906-ship-it/is117-brand-studio/issues/6): Clarify the brand status in the style guide.
+- [Issue #7](https://github.com/mfnu906-ship-it/is117-brand-studio/issues/7): Update the studio logo's alt text to reflect PUREFORM.
 
-**Changes and verification:** To be documented after reviewing the issues and deciding whether to implement, investigate, defer, or decline each suggestion.
+**Feedback decision:** I implemented Issues #5 and #6 because they improved the accuracy and consistency of my website. I deferred Issue #7 because I decided to maintain the current minimalist style guide design.
+
+**Changes and verification:** I updated the style guide through PR #8 and corrected the README footer link through PR #9. Both pull requests were merged into the main branch. I verified the published changes and documented my responses in the GitHub issues.
 
 ### 7. Change Note and Open Question
 
