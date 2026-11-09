@@ -101,3 +101,103 @@ Automated checks confirm only their stated assertions. They do not establish aud
 ## Later
 
 No follow-up feature is selected. If work resumes after BRAND-001, choose one small visitor-focused improvement and record it under a new spec ID.
+
+## T-shirt Research — November 9, 2026
+
+### 1. Three Clothing Website Comparisons
+
+**Research date:** November 9, 2026
+
+| Source | Observation / What to Check | What It Suggests for THE EDIT |
+|---|---|---|
+| [UNIQLO](https://www.uniqlo.com/us/en/) | UNIQLO presents everyday basics with practical product information, including fit, materials, and pricing. | THE EDIT should make its T-shirt easy to understand with clear product information and simple navigation. |
+| [Everlane](https://www.everlane.com/) | Everlane emphasizes wardrobe essentials, versatile styling, and product materials. | THE EDIT can emphasize how a simple white T-shirt works with different outfits, without making unsupported quality claims. |
+| [COS](https://www.cos.com/en-us/) | COS presents modern clothing with attention to garment shapes, fits, and design details. | THE EDIT can use a refined visual direction and clearly describe the T-shirt's fit. |
+
+**Research limitation:** These observations describe the brands' general presentation. Specific visual details and product claims should be checked against the live pages. Brand-character interpretations are my own.
+
+### 2. Two Brand Positions
+
+**Position A — Premium Minimalist Essential**
+
+THE EDIT focuses on a simple white T-shirt for young professionals who want versatile everyday clothing. The brand emphasizes confidence, simplicity, and a sophisticated appearance.
+
+**Position B — Affordable Everyday Basic**
+
+THE EDIT focuses on college students who want comfortable, practical clothing at accessible prices. The brand emphasizes convenience, casual styling, and affordability.
+
+**My decision:** I chose Position A because it matches THE EDIT's existing brand promise, "Effortless Confidence," and its Modernist design direction.
+
+**Assumption:** Premium describes the intended brand presentation, not verified fabric quality or a confirmed pricing advantage.
+
+### 3. Two Audience Persona Hypotheses
+
+**Persona A — Young Professional**
+
+- Age: 25 (hypothetical)
+- Needs versatile clothing for everyday activities and casual professional settings.
+- Values simple styling and a polished appearance.
+- May be concerned about fit, comfort, and versatility.
+
+**Persona B — College Student**
+
+- Age: 21 (hypothetical)
+- Needs comfortable clothing for classes and everyday activities.
+- May prioritize affordability and casual styling.
+- May be concerned about price, comfort, and durability.
+
+**Selected primary audience:** Young professionals.
+
+I chose young professionals because THE EDIT's sophisticated visual identity, minimalist approach, and confident messaging align with this audience hypothesis. College students remain a possible secondary audience.
+
+**Assumption:** These personas represent potential customers, not findings from customer interviews or surveys.
+
+### 4. Look, Brand Character, and Honest Persuasion
+
+**Visual direction:** Modernist design with neutral colors, clean typography, simple layouts, and balanced spacing.
+
+**Brand archetype:** Ruler.
+
+**Brand voice:** Confident, Sophisticated, Minimalist.
+
+**Brand promise:** Effortless Confidence.
+
+**Headline:** Confidence Begins With Simplicity.
+
+**Supporting text:** A white T-shirt for effortless everyday styling.
+
+**Call to action:** Explore the Tee.
+
+The visual design supports the brand by creating a clean and organized shopping experience. The Ruler archetype communicates confidence through a controlled and polished presentation.
+
+THE EDIT should persuade customers through clear product information, realistic styling examples, and straightforward messaging. It should avoid fake reviews, misleading discounts, false scarcity, and unsupported claims about product quality or sustainability.
+
+### 5. Research Decision
+
+I will keep young professionals as THE EDIT's primary audience and maintain the Modernist design direction established in my previous Brand Studio work.
+
+UNIQLO suggests the importance of practical product information. Everlane suggests emphasizing versatile everyday styling. COS suggests presenting clothing with a refined design and clear fit descriptions.
+
+I want THE EDIT to combine a sophisticated appearance with simple, understandable product information.
+
+### 6. Peer Review and Feedback
+
+**Review partner:** Classmate — name to be added.
+
+**Incoming feedback issues:** Pending classmate review.
+
+**My review of my classmate's project:** Pending availability of their repository.
+
+**Feedback decision:** To be documented after receiving actual feedback.
+
+**Changes and verification:** To be documented after reviewing the issues and deciding whether to implement, investigate, defer, or decline each suggestion.
+
+### 7. Change Note and Open Question
+
+**Current change:** Added comparative clothing-site research, two brand positions, two audience hypotheses, and the selected primary audience to the existing Brand Studio documentation.
+
+**Open question:** Does THE EDIT's current homepage clearly communicate that it is intended primarily for young professionals?
+
+**Next step:** Request peer feedback, document the decision in GitHub Issues, link any accepted changes to commits or pull requests, verify the results, and request reviewer confirmation before closing resolved issues.
+
+**AI assistance:** ChatGPT assisted with organizing and drafting the research. I am responsible for checking website observations, evaluating peer feedback, verifying changes, and making the final project decisions.
