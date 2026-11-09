@@ -108,11 +108,11 @@ No follow-up feature is selected. If work resumes after BRAND-001, choose one sm
 
 **Research date:** November 9, 2026
 
-| Source | Observation / What to Check | What It Suggests for THE EDIT |
-|---|---|---|
-| [UNIQLO](https://www.uniqlo.com/us/en/) | UNIQLO presents everyday basics with practical product information, including fit, materials, and pricing. | THE EDIT should make its T-shirt easy to understand with clear product information and simple navigation. |
-| [Everlane](https://www.everlane.com/) | Everlane emphasizes wardrobe essentials, versatile styling, and product materials. | THE EDIT can emphasize how a simple white T-shirt works with different outfits, without making unsupported quality claims. |
-| [COS](https://www.cos.com/en-us/) | COS presents modern clothing with attention to garment shapes, fits, and design details. | THE EDIT can use a refined visual direction and clearly describe the T-shirt's fit. |
+| Source                                  | Observation / What to Check                                                                                | What It Suggests for THE EDIT                                                                                              |
+| --------------------------------------- | ---------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------- |
+| [UNIQLO](https://www.uniqlo.com/us/en/) | UNIQLO presents everyday basics with practical product information, including fit, materials, and pricing. | THE EDIT should make its T-shirt easy to understand with clear product information and simple navigation.                  |
+| [Everlane](https://www.everlane.com/)   | Everlane emphasizes wardrobe essentials, versatile styling, and product materials.                         | THE EDIT can emphasize how a simple white T-shirt works with different outfits, without making unsupported quality claims. |
+| [COS](https://www.cos.com/en-us/)       | COS presents modern clothing with attention to garment shapes, fits, and design details.                   | THE EDIT can use a refined visual direction and clearly describe the T-shirt's fit.                                        |
 
 **Research limitation:** These observations describe the brands' general presentation. Specific visual details and product claims should be checked against the live pages. Brand-character interpretations are my own.
 
